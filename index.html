@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=Ysabeau&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url(/pexels-david-mcbee-730552.jpg);
+            background-size: 1380px;
+            background-repeat: repeat-x;
+            color: white;
+            margin: 0px;
+            height: 1500px;
+        }
+
+        #navbar {
+            display: block;
+            /* border: 2px green solid; */
+            margin-left: 0px;
+            padding: 10px 10px;
+            background-color: rgba(19, 1, 19, 0.808);
+            /* position: fixed; */
+            width: 1350px;
+            /* height: 100px; */
+        }
+
+        #navbar li {
+            position: relative;
+            top: 0px;
+            display: inline-block;
+            margin-left: 60px;
+            font-size: 19px;
+            width: 80px;
+        }
+        #logo{
+            top: 10px;
+            height: 60px;
+            width: 60px;
+            left: 0px;
+            position: relative;
+            
+        }
+        #navbar li a {
+            text-decoration: none;
+            color: rgb(190, 224, 224);
+        }
+
+        #navbar li a:hover {
+            color: rgb(15, 121, 121);
+        }
+
+        #sign {
+            position: absolute ;
+            right: 40px;
+
+            padding-right: 20px;
+            padding-left: 20px;
+            top: 25px;
+            font-size: 18px;
+        }
+
+        #sign a {
+            color: aliceblue;
+        }
+
+        #info {
+            /* border: 2px solid green; */
+            margin-top: 100px;
+            width: 700px;
+            margin-left: 20px;
+            color: rgb(248, 236, 236);
+            background-color: rgba(26, 2, 26, 0.438);
+            padding: 30px 30px;
+            padding-top: 10px;
+            /* border-radius: 40px; */
+        }
+
+        #text {
+            text-align: left;
+            font-size: 45px;
+            color: rgb(220, 227, 216);
+        }
+
+        #reg {
+            font-size: 30px;
+            background-color: rgb(206, 155, 45);
+            border: none;
+            border-radius: 10px;
+            margin-top: 60px;
+            padding: 10px 10px;
+            display: block;
+            width: 40%;
+            margin: 60px auto;
+            
+        }
+
+        #reg:hover {
+            background-color: rgb(209, 180, 40);
+            text-decoration: underline;
+        }
+        #app
+        {
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 30%;
+            margin-top: 35%;
+            color: brown;
+            margin-left: 90px;
+            padding: 10px 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #pro
+        {
+            position: absolute;
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 30%;
+            margin-top: 5%;
+            color: brown;
+            margin-left: 50px;
+            padding: 10px 15px;
+            font-size: 20px;
+            right: 500px;
+            text-align: center;
+        }
+        #submit
+        {
+            position: absolute;
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 30%;
+            margin-top: 25%;
+            color: brown;
+            margin-left: 90px;
+            padding: 10px 15px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #results
+        {
+            position: absolute;
+            border: 3px solid black;
+            border-radius: 20px;
+            width: 30%;
+            margin-top: 35%;
+            color: brown;
+            margin-left: 50px;
+            padding: 10px 15px;
+            font-size: 20px;
+            right: 500px;
+            top: 220%;
+
+            text-align: center;
+        }
+        #bord{
+            position: relative;
+            height: 50px;
+            top: 50%;
+            background-color: rgb(64, 20, 105);
+            margin-top: 40px;
+        }
+        #bord p{
+            position: relative;
+            margin: auto;
+            text-align: center;
+            padding: 19px 10px;
+            font-size: 20px;
+        }
+        #head{
+            position:absolute;
+            /* border: black 2px solid; */
+            top: 170%;
+            right: 110px;
+            font-size: 45px;
+            color: rgb(5, 34, 73);
+            text-decoration: underline 3px;
+        }
+        #photo{
+            position: absolute;
+            top: 240%;
+            right: 0px;
+            max-width: 100%;
+            width:570px ;
+            size: 10px;
+            z-index: -10;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+            <!-- <img id="logo" src="bat.png" alt=""> -->
+
+        <ul>
+            <li></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Events</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Registration</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Sponsors</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contact</a></li>
+            <button id="sign">Sign In</button>
+
+        </ul>
+    </div>
+    <div id="info">
+        <h2 id="text">BATCOIN HACKATHON 2023</h2>
+        <p><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero rem porro maxime facilis earum amet
+                quidem quia ab, dolor vero voluptatem mollitia nam consequatur molestiae, at harum laudantium aliquam.
+                Assumenda magnam illum ab eveniet dolorum veritatis natus quibusdam consectetur, possimus quo quod est?
+                Optio cumque autem aut id sapiente totam!</strong> </p>
+        <button id="reg">Register Now</button>
+    </div>
+    <div id="head">
+        <h2 class="headline">TIMELINE</h2>
+    </div>
+    <div id="app">
+        <h2 class="headline">  Applications invited</h2>
+        <p>During this time, the portal opens up to allow you to register yourself as a participant.</p>
+    </div>
+    <div id="pro">
+        <h2>Proposals invites.</h2>
+        <p>All the teams submit their proposals and wait for confirmation from the authorities.</p>
+    </div>
+    <div id="submit">
+        <h2>Submission deadline</h2>
+        <p>The final project is submitted by the teams and we move on with evaluation.</p>
+    </div>
+    <div id="results">
+        <h2>Results</h2>
+        <p>The results are declared and the winners awarded.</p>
+    </div>
+    <div id="photo"><img src="flower2.jpg" alt=""></div>
+
+    <div id="bord">
+        <p>Thank you for visiting
+        </p>
+    </div>
+</body>
+
+</html>
